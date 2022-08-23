@@ -1,0 +1,17 @@
+what = raw_input( "What do we count? (+, -): " )  
+
+a = float( input("Enter the first number: ") )
+b = float( input("Enter the second number: ") )
+
+if what == "+":
+    c = a + b
+    print("Result: " + str(c))
+
+elif what == "-":
+    c = a - b
+    print("Result: " + str(c))
+
+else:
+    print("Wrong operation selected!")
+
+raw_input()
